@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="Newfolder/style.css">
+
+    <title>mysuccour.com</title>
+  </head>
+  <body>
+   
+    <!-- ------Navbar------ -->
+    <nav class="navbar fixed-top  navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+
+        <nav class="navbar navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="Newfolder/logo.png" alt="" width="80" height="30" class="d-inline-block align-text-top">
+              Succour
+            </a>
+          </div>
+        </nav>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Disasters
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#C" onClick=>CYCLONE</a></li>
+                <li><a class="dropdown-item" href="#E">EARTHQUAKE</a></li>
+                <li><a class="dropdown-item" href="#L">LANDSLIDES</a></li>
+                <li><a class="dropdown-item" href="#W">WINDSTORMS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#yoyo">CONTACT US</a>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+   </div>
+
+    <!-- ------Sliders------ -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button> -->
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Newfolder/images/photo.jpg" height="580px" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Together we can change</h2>
+            <h2>the world</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Newfolder/images/photo2.jpg" height="580px" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Available 24X7</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Newfolder/images/photo3.jpg" height="580px" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Grant for Earthquake</h2>
+            <h2>Damaged Homes</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Newfolder/images/photo4.jpg" height="580px" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Your small donation saves someone life</h2>
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <img src="images/pet_image6.jpg" height="580px" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Affordable Vet Care In Your Pocket</h2>
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br><br>
+
+       <!-- ------Natural disasters------ -->
+      <div class="class container-fluid">
+        <div class="row justify-content-evenly">
+      
+          <div class="col-5" id="C">
+            <div class="card">
+              <img src="Newfolder/images/cyclone.jpg" height="320px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cyclone</h5>
+                <p class="card-text">Cyclones are caused by atmospheric disturbances around a low-pressure area distinguished by swift and often disruptive air circulation. The word cyclone is derived from the Greek word Cyclos meaning the coils of a snake and it was coined by Henry Piddington.....</p>
+                <a href="Newfolder/Cyclone.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-5" id="E">
+            <div class="card">
+              <img src="Newfolder/images/earthquake.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Earthquake</h5>
+                <p class="card-text">Earthquake is one of the major natural disasters. Every year it causes a huge loss of life and property all around the world. Proper strategies and awareness about disaster management is the need of the hour. This will protect us from the losses and help to cope up with these hazards</p>
+                <a href="Newfolder/Earthquake.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-5" id="W">
+            <div class="card">
+              <img src="Newfolder/images/hurricane.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Windslides</h5>
+                <p class="card-text">a tropical cyclone with winds of 74 miles (119 kilometers) per hour or greater that is usually accompanied by rain, thunder, and lightning, and that sometimes moves into temperate latitudes</p>
+                <a href="Newfolder/Wind_storm.html" class="btn btn-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-5" id="L">
+            <div class="card">
+              <img src="Newfolder/images/landslide.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Landslide</h5>
+                <p class="card-text">A landslide is defined as the movement of a mass of rock, debris, or earth down a slope. Landslides are a type of "mass wasting," which denotes any down-slope movement of soil and rock under the direct influence of gravity</p>
+                <a href="Newfolder/Landslide.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <!-- ------Images Section------ -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 justify-content-evenly">
+            <img src="Newfolder/images/1p.jpeg" height="250px" width="470px" alt="...">
+          </div>
+          <div class="col-md-3">
+            <img src="Newfolder/images/2p.jpeg" height="250px" width="280px" alt="...">
+          </div>
+          <div class="col-md-3">
+            <img src="Newfolder/images/3p.jpeg" height="250px" width="300px" alt="...">
+          </div>
+        </div>
+        <div class="row pt-2 pb-4">
+          <div class="col-md-5 justify-content-evenly">
+            <img src="Newfolder/images/4p.jpeg" height="250px" width="470px" alt="...">
+          </div>
+          <div class="col-md-3">
+            <img src="Newfolder/images/7p.jpg" height="250px" width="280px" alt="...">
+          </div>
+          <div class="col-md-3">
+            <img src="Newfolder/images/6p.jpg" height="250px" width="300px" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <!-- ------Blog Section ------ -->
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10 text-center pt-5">
+            <h5>Recent Earthquake Responses</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row pt-3 pb-5">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="Newfolder/images/article1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cyclonic disaster in Odisha</h5>
+                <p class="card-text">Heavy rainfall is expected in the region due to a cyclonic disturbance developed over northeast and neighboring areas of east-central Bay of Bengal, Myanmar and Bangladesh, the India Meteorological Department (IMD) stated.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="Newfolder/images/article2.jpg" height="150px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Uttarakhand cloudburst aftermath</h5>
+                <p class="card-text">The region experienced heavy rainfall in 12 hours, Singh said in his statement. A cloudburst occurs when a region receives more than 100 millimeters of rainfall in an hour, according to the definition.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="Newfolder/images/article3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">IMD predicts more rain in Odisha</h5>
+                <p class="card-text">Squally weather, with gusty surface wind speed reaching 45-55 kilometers per hour, is likely over northern and adjoining west central Bay of Bengal during August 19 and 20 under the influence of the LPA, Biswas added</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------Footer------ -->
+      <footer id="footer">
+        <div class="footer py-5">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <h4><i class="bi bi-headset"></i>24/7 SUPPORT</h4>
+                <p>Call Us Now At +1414372210</p>
+                
+              </div>
+              <div class="col-md-4">
+                <h4><i class="bi bi-truck"></i>Helpline numbers:- 108</h4>
+              </div>
+              <div class="col-md-4">
+               <h4> <button type="submit" class="button" > 
+                  <a id="yoyo" href="Newfolder/form/index.html">Donate us</a>
+                </button>
+              </h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      <footer>
+        <div class="center text-center">
+            Copyright &copy; www.mySuccour.com. All rights reserved!
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
